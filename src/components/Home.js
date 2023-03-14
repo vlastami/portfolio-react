@@ -21,7 +21,7 @@ export default function Home() {
         className="flex w-full h-screen flex-col md:flex-row gap-2 items-center justify-center text-black relative"
       >
         <div className="flex md:p-4 justify-center items-center">
-          <div className="md:w-3/12">
+          <div className="md:w-2/6 lg:w-3/12">
             <img
               data-aos="flip-right"
               data-aos-duration="1500"
@@ -33,7 +33,7 @@ export default function Home() {
             />
           </div>
           <div
-            className="md:w-7/12"
+            className="md:w-4/6 lg:w-7/12"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-offset="100"

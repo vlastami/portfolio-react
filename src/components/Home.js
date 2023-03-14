@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import profile from "../assets/profile-pic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,7 +9,6 @@ import {
 
 export default function Home() {
   const [loaded, setLoaded] = useState(true);
-
   return (
     <>
       {loaded ? (
@@ -43,7 +41,7 @@ export default function Home() {
             <div className="flex flex-col w-100 mt-8">
               <h1 className="text-xl text-gray-400">Ahoj! I'm</h1>
               <h1 className="text-2xl text-50 font-bold">Vlasta Michalcová</h1>
-              <p class="text-xl font-bold text-light-500">
+              <p className="text-xl font-bold text-light-500">
                 Future Web/Software Developer
               </p>
               <p className="text-xl font-light text-gray-900 ">

@@ -10,7 +10,6 @@ import elements from "../assets/certs/certificate-elements-of-ai-cs.png"
 import ethics from "../assets/certs/certificate-ethics-of-ai.png"
 import cisco from "../assets/certs/Vlasta-Rencova-2021-CCNA2-v7-certificate-1.png"
 
-
 export default function Certificates(){
     return (
         <div id="certs" className="mt-4 text-light-500 h-screen">

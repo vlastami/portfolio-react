@@ -9,9 +9,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Projects from './components/Projects';
 import 'slick-carousel/slick/slick-theme.css';
-
-
-
 function App() {
     useEffect(() => {
       document.title = 'Vlasta Michalcová';
@@ -28,5 +25,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

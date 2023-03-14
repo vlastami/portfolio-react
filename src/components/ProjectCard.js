@@ -17,7 +17,7 @@ export default function ProjectCard(props) {
             <p className="font-light text-gray-400">{props.desc}</p>
           </div>
           <div className="text-center mt-4 mb-5">
-            <a href={props.url} className="btn-branding-outline" target="_blank">
+            <a href={props.url} className="btn-branding-outline" target="_blank" rel="noreferrer">
               Launch Project
             </a>
           </div>

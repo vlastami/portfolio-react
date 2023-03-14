@@ -14,13 +14,13 @@ export default function Home() {
   return (
     <>
       {loaded ? (
-        <div className="fixed top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-hidden bg-white flex flex-col items-center justify-center">
+        <div className="fixed top-0 left-0 right-0 bottom-0 w-full z-50 overflow-hidden bg-white flex flex-col items-center justify-center">
           Loading...
         </div>
       ) : null}
       <div
         id="home"
-        className="flex w-full h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative"
+        className="flex w-full h-screen flex-col md:flex-row gap-2 items-center justify-center text-black relative"
       >
         <div className="flex md:p-4 justify-center items-center">
           <div className="md:w-2/6">
@@ -40,13 +40,13 @@ export default function Home() {
             data-aos-duration="1000"
             data-aos-offset="100"
           >
-            <div className="flex flex-col w-full mt-8">
+            <div className="flex flex-col w-100 mt-8">
               <h1 className="text-xl text-gray-400">Ahoj! I'm</h1>
-              <h1 className="text-2xl font-bold">Vlasta Michalcová</h1>
-              <p class="text-xl font-bold text-gray-300">
+              <h1 className="text-2xl text-50 font-bold">Vlasta Michalcová</h1>
+              <p class="text-xl font-bold text-light-500">
                 Future Web/Software Developer
               </p>
-              <p className="text-md font-light text-gray-400 ">
+              <p className="text-xl font-light text-gray-900 ">
                 I discovered my passion for programming through my love for
                 linguistics. I enjoy inventing and seeking solutions to a
                 diverse range of problems, and have found that my perfectionism

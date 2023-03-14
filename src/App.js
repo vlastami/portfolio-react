@@ -21,8 +21,8 @@ function App() {
     <div className="px-6 lg:px-20 xl:px-36 bg-beige">
       <Navbar />
       <Home />
-      <Skills />
-      <Projects />
+        <Skills />
+        <Projects />
       <Certificates />
       <Footer />
     </div>

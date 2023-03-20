@@ -12,7 +12,7 @@ import cisco from "../assets/certs/Vlasta-Rencova-2021-CCNA2-v7-certificate-1.pn
 
 export default function Certificates(){
     return (
-        <div id="certs" className="mt-4 text-light-500">
+        <div id="certificates" className="mt-4 text-light-500">
             <h1 className="text-2xl font-bold">Certifications</h1>
             <p className="font-light text-gray-400">Here are some of my certifications</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center mt-4 gap-5">

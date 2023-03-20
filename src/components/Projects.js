@@ -5,6 +5,7 @@ import github from "../assets/images/github.png"
 import moviedb from "../assets/images/moviedb.png"
 import pokemon from "../assets/images/pokemon.png"
 import edubo from "../assets/images/edubo.png"
+import bookshelf from "../assets/images/bookshelf.png"
 
 import weatherReact from "../assets/images/weather-react.png"
 import weatherApp from "../assets/images/weather.png"
@@ -62,7 +63,13 @@ export default function Projects() {
                 url="https://tender-joliot-120515.netlify.app/"
             />
             <ProjectCard
-                name="Projects in Python"
+                name="The Bookshelf App"
+                img={bookshelf}
+                desc="Built with Flask and MongoDB"
+                url="https://github.com/vlastami/bookshelf-app"
+            />
+            <ProjectCard
+                name="Other Projects in Python"
                 img={github}
                 desc="At the university, we mostly work with Python, so I spend a lot of time with various Python libraries such as sqlalchemy, pandas, numpy, flask, dash, pygame or pymongo"
                 url="https://github.com/vlastami?tab=repositories"

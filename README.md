@@ -1,0 +1,5 @@
+- [] přidat README
+- [] přidat skills
+- [] přidat global.scss (+ variables)
+- [] full code review 
+- [] update pdf

@@ -3,8 +3,6 @@ import profile from "../assets/profile-pic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
-  faInstagram,
-  faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {

@@ -50,7 +50,7 @@ export default function Home() {
                 programming strikes the perfect balance between creativity and
                 methodical thinking.
               </p>
-              <p className="text-xl font-light text-gray leading-relaxed text-justify"> Currently studying 5th semester of Bachelor's program <strong className="text-light-500 font-bold">Applied Informatics</strong> at JAN EVANGELISTA PURKYNĚ
+              <p className="text-xl font-light text-gray leading-relaxed text-justify"> Currently studying 1st semester of Master's program <strong className="text-light-500 font-bold">Applied Informatics</strong> at JAN EVANGELISTA PURKYNĚ
                 UNIVERSITY in Ústí nad Labem, Czech Republic. As part of my studies, I chose the specialization fields of <strong>Programming and Software Engineering</strong>,
                 <strong>Database Systems and Data Processing</strong> and <strong>Business Informatics</strong>.
               </p>
